@@ -12,6 +12,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SunnyCoffee.Data;
+using SunnyCoffee.Services.Customer;
+using SunnyCoffee.Services.Inventory;
+using SunnyCoffee.Services.Order;
 using SunnyCoffee.Services.Product;
 
 namespace SunnyCoffee.Web
@@ -35,6 +38,9 @@ namespace SunnyCoffee.Web
                 opts.UseNpgsql(Configuration.GetConnectionString("sunny.dev"));
             });
             services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<IInventoryService, InventoryService>();
+            services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IOrderService, OrderService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

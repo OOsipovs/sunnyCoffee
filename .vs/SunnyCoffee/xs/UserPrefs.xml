@@ -1,25 +1,24 @@
 ﻿<Properties StartupConfiguration="{7D3991CA-5094-4E6F-86F1-98D8B0509091}|Default">
   <MonoDevelop.Ide.ItemProperties.SunnyCoffee.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.SunnyCoffee.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SunnyCoffee.Services/Inventory/IInventoryService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SunnyCoffee.Services/Order/OrderService.cs">
     <Files>
       <File FileName="SunnyCoffee.Services/Customer/CustomerService.cs" Line="66" Column="2" />
       <File FileName="SunnyCoffee.Services/Product/ProductService.cs" />
-      <File FileName="SunnyCoffee.Services/Inventory/InventoryService.cs" Line="29" Column="67" />
-      <File FileName="SunnyCoffee.Services/Inventory/IInventoryService.cs" Line="12" Column="62" />
+      <File FileName="SunnyCoffee.Services/Inventory/InventoryService.cs" Line="20" Column="10" />
+      <File FileName="SunnyCoffee.Services/Inventory/IInventoryService.cs" Line="12" Column="8" />
+      <File FileName="SunnyCoffee.Services/Order/OrderService.cs" Line="20" Column="122" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SunnyCoffee" expanded="True">
+          <Node name="SunnyCoffee" expanded="True" selected="True">
             <Node name="SunnyCoffee.Data" expanded="True">
               <Node name="Models" expanded="True" />
             </Node>
             <Node name="SunnyCoffee.Services" expanded="True">
               <Node name="Customer" expanded="True" />
-              <Node name="Inventory" expanded="True">
-                <Node name="IInventoryService.cs" selected="True" />
-              </Node>
+              <Node name="Inventory" expanded="True" />
               <Node name="Order" expanded="True" />
               <Node name="Product" expanded="True" />
             </Node>
