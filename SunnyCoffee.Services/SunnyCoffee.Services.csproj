@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Product\" />
+    <Folder Include="Customer\" />
+    <Folder Include="Order\" />
+    <Folder Include="Inventory\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SunnyCoffee.Data\SunnyCoffee.Data.csproj" />
+  </ItemGroup>
 </Project>

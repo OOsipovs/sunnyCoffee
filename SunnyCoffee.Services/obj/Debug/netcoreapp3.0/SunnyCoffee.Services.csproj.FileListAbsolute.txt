@@ -1,0 +1,12 @@
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/bin/Debug/netcoreapp3.0/SunnyCoffee.Services.deps.json
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/bin/Debug/netcoreapp3.0/SunnyCoffee.Services.dll
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/bin/Debug/netcoreapp3.0/SunnyCoffee.Services.pdb
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/bin/Debug/netcoreapp3.0/SunnyCoffee.Data.dll
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/bin/Debug/netcoreapp3.0/SunnyCoffee.Data.pdb
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/obj/Debug/netcoreapp3.0/SunnyCoffee.Services.csprojAssemblyReference.cache
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/obj/Debug/netcoreapp3.0/SunnyCoffee.Services.AssemblyInfoInputs.cache
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/obj/Debug/netcoreapp3.0/SunnyCoffee.Services.AssemblyInfo.cs
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/obj/Debug/netcoreapp3.0/SunnyCoffee.Services.csproj.CoreCompileInputs.cache
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/obj/Debug/netcoreapp3.0/SunnyCoffee.Services.csproj.CopyComplete
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/obj/Debug/netcoreapp3.0/SunnyCoffee.Services.dll
+/Users/olegsosipovs/Documents/asp_projects/SunnyCoffee/SunnyCoffee.Services/obj/Debug/netcoreapp3.0/SunnyCoffee.Services.pdb

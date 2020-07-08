@@ -1,10 +1,12 @@
-﻿using System;
+﻿using System.Collections.Generic;
+
 namespace SunnyCoffee.Services.Customer
 {
-    public class ICustomerService
+    public interface ICustomerService
     {
-        public ICustomerService()
-        {
-        }
+        List<Data.Models.Customer> GetAllCustomers();
+        ServiceResponse<Data.Models.Customer> CreateCustomer(Data.Models.Customer customer);
+        ServiceResponse<bool> DeleteCustomer(int id);
+        Data.Models.Customer GetById(int id);
     }
 }
