@@ -29,5 +29,13 @@ namespace SunnyCoffee.Web.Controllers
 
             return Ok(productsViewModel);
         }
+
+        [HttpPatch("/api/product/{id}")]
+        public ActionResult ArchiveProduct(int id)
+        {
+            _logger.LogInformation("Archiving Product");
+            var archiveResult = _productService.ArchiveProduct(id);
+            return Ok(archiveResult);
+        }
     }
 }

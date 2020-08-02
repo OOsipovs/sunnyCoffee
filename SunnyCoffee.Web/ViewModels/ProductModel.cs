@@ -1,7 +1,7 @@
 ﻿using System;
 namespace SunnyCoffee.Web.ViewModels
 {
-    public class ProductViewModel
+    public class ProductModel
     {
         public int Id { get; set; }
         public DateTime CreatedOn { get; set; }

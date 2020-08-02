@@ -1,18 +1,16 @@
 ﻿<Properties StartupConfiguration="{7D3991CA-5094-4E6F-86F1-98D8B0509091}|Default">
   <MonoDevelop.Ide.ItemProperties.SunnyCoffee.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.SunnyCoffee.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SunnyCoffee.Services/Order/OrderService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SunnyCoffee.Web/Serialization/OrderMapper.cs">
     <Files>
-      <File FileName="SunnyCoffee.Services/Customer/CustomerService.cs" Line="66" Column="2" />
-      <File FileName="SunnyCoffee.Services/Product/ProductService.cs" />
-      <File FileName="SunnyCoffee.Services/Inventory/InventoryService.cs" Line="20" Column="10" />
-      <File FileName="SunnyCoffee.Services/Inventory/IInventoryService.cs" Line="12" Column="8" />
-      <File FileName="SunnyCoffee.Services/Order/OrderService.cs" Line="20" Column="122" />
+      <File FileName="SunnyCoffee.Web/Serialization/ProductMapper.cs" Line="23" Column="72" />
+      <File FileName="SunnyCoffee.Web/Controllers/OrderController.cs" Line="29" Column="25" />
+      <File FileName="SunnyCoffee.Web/Serialization/OrderMapper.cs" Line="52" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SunnyCoffee" expanded="True" selected="True">
+          <Node name="SunnyCoffee" expanded="True">
             <Node name="SunnyCoffee.Data" expanded="True">
               <Node name="Models" expanded="True" />
             </Node>
@@ -25,7 +23,9 @@
             <Node name="SunnyCoffee.Web" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Serialization" expanded="True" />
+              <Node name="Serialization" expanded="True">
+                <Node name="OrderMapper.cs" selected="True" />
+              </Node>
               <Node name="ViewModels" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>

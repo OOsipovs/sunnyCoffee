@@ -5,9 +5,9 @@ namespace SunnyCoffee.Web.Serialization
 {
     public class ProductMapper
     {
-        public static ProductViewModel SerializeProductModel(Data.Models.Product product)
+        public static ProductModel SerializeProductModel(Data.Models.Product product)
         {
-            return new ProductViewModel
+            return new ProductModel
             {
                 Id = product.Id,
                 CreatedOn = product.CreatedOn,
@@ -20,7 +20,7 @@ namespace SunnyCoffee.Web.Serialization
             };
         }
 
-        public static Data.Models.Product SerializeProductModel(ProductViewModel product)
+        public static Data.Models.Product SerializeProductModel(ProductModel product)
         {
             return new Data.Models.Product
             {
