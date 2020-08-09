@@ -28,6 +28,8 @@ namespace SunnyCoffee.Web.Controllers
             _logger.LogInformation("Generating new order");
             var order = OrderMapper.SerializeInvoiceToOrder(invoice);
             order.Customer = _customerService.GetById(invoice.CustomerId);
+            _orderService.GenerateInvoiceForOrder(order);
+
             return Ok();
         }
     }
