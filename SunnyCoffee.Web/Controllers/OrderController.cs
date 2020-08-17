@@ -32,5 +32,21 @@ namespace SunnyCoffee.Web.Controllers
 
             return Ok();
         }
+
+        [HttpPost("/api/order")]
+        public ActionResult GetOrders()
+        {
+            var orders = _orderService.GetOrders();
+            var orderModels = OrderMapper.SerializeOrdersToViewModels(orders);
+            return Ok(orderModels);
+        }
+
+        [HttpPatch("/api/order/complete/{id}")]
+        public ActionResult GetOrders(int id)
+        {
+            _logger.LogInformation($"Making order {id} complete...");
+            _orderService.MarkFulfilled(id);
+            return Ok();
+        }
     }
 }
